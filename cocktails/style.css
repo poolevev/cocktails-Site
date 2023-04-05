@@ -1,0 +1,76 @@
+#menu li {
+    padding: 0 12vw;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(158, 169, 201);
+
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgb(199, 211, 245);
+}
+
+.card-body {
+    text-align: center;
+
+}
+
+.card-title {
+    align-self: center;
+}
+
+.form-register,
+.form-signin {
+    width: 300px;
+    margin: auto;
+}
+
+.notificator {
+    font-size: 20px;
+    color: rgb(126, 33, 33);
+}
+
+#itemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#detailsContainer {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+#filters a {
+    padding: 0 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(39, 16, 82);
+}
+
+.columnFlex {
+    display: flex;
+    flex-direction: column;
+    width: 400%
+}
+
+.rowFlex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgba(101, 204, 245, 0.425);
+    border-radius: 5px;
+}

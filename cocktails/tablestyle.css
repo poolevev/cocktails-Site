@@ -1,0 +1,23 @@
+table {
+    margin: 0 auto;
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+    border: 2px solid rgb(13, 13, 13);
+    margin-top: 20px;
+
+}
+
+th,
+td {
+    padding: 5px;
+    border: 2px solid rgb(13, 13, 13);
+}
+
+th {
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(219, 214, 214);
+}
